@@ -1,0 +1,13 @@
+.hoslider-container {
+	width: 100%;
+	overflow: hidden;
+}
+.hoslider-swipe {
+	overflow: hidden;
+}
+/* 
+ * !!! set childNodes's style is float -> left
+ */
+.hoslider-swipe > *{
+	float: left;
+}
