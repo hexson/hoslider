@@ -1,0 +1,22 @@
+{
+  "name": "hoslider",
+  "version": "0.0.1",
+  "description": "touch slider for mobile",
+  "author": "hexson",
+  "LICENSE": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hexson/hoslider.git"
+  },
+  "scripts": {
+    "build": "grunt"
+  },
+  "dependencies": {
+    "grunt": "^1.0.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
