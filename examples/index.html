@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<title>hoslider.js</title>
+<link rel="stylesheet" type="text/css" href="../build/hoslider.css">
+<style type="text/css">
+	html,body {
+		font-size: 62.5%;
+	}
+	.hoslider-swipe > div {
+		width: 8rem;
+	}
+	.hoslider-swipe > div > span {
+		line-height: 1.8rem;
+	}
+	.child > div {
+		width: 8rem;
+		height: 8rem;
+		margin-bottom: .5rem;
+		border-radius: 5px;
+	}
+	.child:nth-child(1) > div {
+		background-color: #fe703e;
+	}
+	.child:nth-child(2) > div {
+		background-color: #feca3e;
+	}
+	.child:nth-child(3) > div {
+		background-color: #d8fe3e;
+	}
+	.child:nth-child(4) > div {
+		background-color: #a6fe3e;
+	}
+	.child:nth-child(5) > div {
+		background-color: #3efe9d;
+	}
+	.child:nth-child(6) > div {
+		background-color: #3efed8;
+	}
+	.child:nth-child(7) > div {
+		background-color: #3ee1fe;
+	}
+	.child:nth-child(8) > div {
+		background-color: #3ea6fe;
+	}
+	.child:nth-child(9) > div {
+		background-color: #af3efe;
+	}
+	.child:nth-child(10) > div {
+		background-color: #fe3e98;
+	}
+</style>
+</head>
+<body>
+	<div class="hoslider-container">
+		<div class="hoslider-swipe" id="demo1">
+			<div class="child">
+				<div></div>
+				<span>Anime Power FX</span>
+				<br />
+				<span>摄影与录像</span>
+			</div>
+			<div class="child">
+				<div></div>
+				<span>Anime Power FX</span>
+				<br />
+				<span>摄影与录像</span>
+			</div>
+			<div class="child">
+				<div></div>
+				<span>Anime Power FX</span>
+				<br />
+				<span>摄影与录像</span>
+			</div>
+			<div class="child">
+				<div></div>
+				<span>Anime Power FX</span>
+				<br />
+				<span>摄影与录像</span>
+			</div>
+			<div class="child">
+				<div></div>
+				<span>Anime Power FX</span>
+				<br />
+				<span>摄影与录像</span>
+			</div>
+			<div class="child">
+				<div></div>
+				<span>Anime Power FX</span>
+				<br />
+				<span>摄影与录像</span>
+			</div>
+			<div class="child">
+				<div></div>
+				<span>Anime Power FX</span>
+				<br />
+				<span>摄影与录像</span>
+			</div>
+			<div class="child">
+				<div></div>
+				<span>Anime Power FX</span>
+				<br />
+				<span>摄影与录像</span>
+			</div>
+			<div class="child">
+				<div></div>
+				<span>Anime Power FX</span>
+				<br />
+				<span>摄影与录像</span>
+			</div>
+			<div class="child">
+				<div></div>
+				<span>Anime Power FX</span>
+				<br />
+				<span>摄影与录像</span>
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="../build/hoslider.min.js"></script>
+<script type="text/javascript">
+	var demo1 = new Hoslider('demo1', {
+		// childElements 之间的间隔
+		partition: 15
+		// animation 执行时间，单位ms
+		//duration: 300,
+		// touch 事件结束回调函数
+		// touchEndCallback: function(){
+		// 	some code...
+		// }
+		// ending 回调函数
+		// endCallback: function(){
+		// 	some code...
+		// }
+	});
+</script>
+</html>
