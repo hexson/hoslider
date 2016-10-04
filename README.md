@@ -1,4 +1,4 @@
-# hoslider
+# Hoslider
 
 touch slider for mobile
 
@@ -7,12 +7,10 @@ touch slider for mobile
 ## example
 
 `var demo = new Hoslider('demo', {
-
 	partition: 15
-
 });`
 
 ## 参数
 
-**partition**  组件间隔(单位:px)
+**partition** => 组件间隔(单位:px)
 
