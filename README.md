@@ -7,7 +7,9 @@ touch slider for mobile
 ## example
 
 `var demo = new Hoslider('demo', {
+
 	partition: 15
+
 });`
 
 ## 参数
