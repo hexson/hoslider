@@ -12,11 +12,15 @@ touch slider for mobile
 
 `<script type="text/javascript" src="/build/hoslider.min.js"></script>`
 
-`<script type="text/javascript">
+栗子很简单
+
+`
 var demo = new Hoslider('demo', {
 	partition: 15
 });
-</script>`
+`
+
+现在你就可以在手机浏览器或者 **chrome** 浏览器里面模拟mobile查看效果
 
 ## 参数
 
