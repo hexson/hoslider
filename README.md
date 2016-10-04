@@ -6,11 +6,19 @@ touch slider for mobile
 
 ## example
 
-`var demo = new Hoslider('demo', {
+首先引入
+
+`<link rel="stylesheet" type="text/css" href="/build/hoslider.css">`
+
+`<script type="text/javascript" src="/build/hoslider.min.js"></script>`
+
+`<script type="text/javascript">
+var demo = new Hoslider('demo', {
 	partition: 15
-});`
+});
+</script>`
 
 ## 参数
 
-**partition** => 组件间隔(单位:px)
+**partition** 组件间隔(单位:px)
 
