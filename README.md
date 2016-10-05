@@ -31,3 +31,13 @@ var demo = new Hoslider('demo', {
 **duration**
 
 动画执行时间(单位:ms)
+
+**touchEndCallback**
+
+touch 事件结束回调函数
+
+`
+function () {
+	// some code...
+}
+`
