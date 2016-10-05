@@ -24,5 +24,10 @@ var demo = new Hoslider('demo', {
 
 ## 参数
 
-**partition** 组件间隔(单位:px)
+**partition**
 
+组件间隔(单位:px)
+
+**duration**
+
+动画执行时间(单位:ms)
