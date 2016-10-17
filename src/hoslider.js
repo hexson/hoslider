@@ -100,6 +100,10 @@
 								}else if (slider.totalWidth <= slider.conWidth){
 									x = 0;
 									this.elem.style.transform = 'translate3d('+ x +'px,0,0)';
+								}else if ((slider.totalWidth - slider.conWidth - Math.abs(x) <= slider.iW[slider.iW.length-1]) && x > this.endX){
+									x = - (slider.totalWidth - slider.conWidth);
+									this.elem.style.transform = 'translate3d('+ x +'px,0,0)';
+									typeof h.extendConfig.endCallback === 'function' && h.extendConfig.endCallback();
 								}else {
 									this.elem.style.transform = 'translate3d('+ x +'px,0,0)';
 								}
